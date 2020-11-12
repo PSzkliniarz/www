@@ -1,192 +1,180 @@
-*{
-  margin:0;
+* {
+  margin: 0;
   font-family: 'Poppins', sans-serif;
 }
-:root{
-  --nav-color:#49718F;
+
+:root {
+  --nav-color: #49718F;
 }
 
 a:link {
   color: #fff;
 }
+
 a:visited {
   color: #fff;
 }
+
 a:hover {
   color: #dee2e6 !important;
   text-decoration: none !important;
 }
+
 a:active {
   color: #fff;
 }
 
-.navbar{
+.navbar {
   width: 85%;
-  margin:50px auto;
-
+  margin: 50px auto;
   background-color: var(--nav-color);
   border-radius: 30px;
   color: #fff !important;
   font-weight: bold;
-
   -webkit-box-shadow: 2px 2px 3px 0px rgba(50, 50, 50, 0.5);
-  -moz-box-shadow:    2px 2px 3px 0px rgba(50, 50, 50, 0.5);
-  box-shadow:         2px 2px 3px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 2px 2px 3px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 2px 2px 3px 0px rgba(50, 50, 50, 0.5);
 }
 
-.navbar-brand{
+.navbar-brand {
   margin-left: 3%;
 }
 
-.navbar-toggler-icon{
-   /* background-image: url("hamburger.png")!important; */
+.navbar-dark .navbar-nav .nav-link {  color: #fff !important;
 }
 
-.navbar-dark .navbar-nav .nav-link{
-  color:#fff!important;
-}
-.navbar-dark .navbar-nav .nav-link:hover{
-  color:#dee2e6!important;
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #dee2e6 !important;
 }
 
-.navbar > .collapse{
-  justify-content:flex-end;
+.navbar>.collapse {
+  justify-content: flex-end;
 }
 
-.navbar-nav{
+.navbar-nav {
   width: 40%;
   justify-content: space-around;
   margin-right: 1%;
 }
 
-.mw-1200{
+.mw-1200 {
   max-width: 1200px;
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
-.header{
+.header {
   min-height: 400px;
   padding-left: 10px;
   padding-right: 10px;
-
   display: flex;
   align-items: flex-end;
 }
 
-.header h1{
-  color:#404040;
+.header h1 {
+  color: #404040;
   font-size: 52px;
   font-weight: bold;
   margin-top: 50px;
   margin-bottom: 20px;
 }
-.header p{
-  color:#636363;
-  font-size: 24px;
 
+.header p {
+  color: #636363;
+  font-size: 24px;
 }
 
-
-
-.header-img{
+.header-img {
   width: 100%
 }
 
-#omnie > a{
+#omnie>a {
   display: flex;
   justify-content: center;
 }
 
-.gitbutton{
+.gitbutton {
   background-color: var(--nav-color);
   width: 65%;
   min-width: 200px;
   margin-top: 30px;
   border-radius: 30px;
-  color:#fff;
+  color: #fff;
   font-size: 28px;
-  border:none;
-
+  border: none;
   -webkit-box-shadow: 2px 2px 3px 0px rgba(50, 50, 50, 0.5);
-  -moz-box-shadow:    2px 2px 3px 0px rgba(50, 50, 50, 0.5);
-  box-shadow:         2px 2px 3px 0px rgba(50, 50, 50, 0.5);
-
+  -moz-box-shadow: 2px 2px 3px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 2px 2px 3px 0px rgba(50, 50, 50, 0.5);
 }
-.gitbutton:hover{
+
+.gitbutton:hover {
   background-color: #75a1de;
 }
 
-
-.projekty{
+.projekty {
   margin-top: 200px;
 }
 
-.projekty > h1{
-  color:#404040;
+.projekty>h1 {
+  color: #404040;
   font-size: 48px;
   font-weight: bold;
   text-align: center;
   margin-bottom: 20px;
-
 }
 
-.project-col{
+.project-col {
   margin-top: 50px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.project-col > h2{
+.project-col>h2 {
   color: #384B94;
   font-size: 42px;
   font-weight: bold;
 }
 
-.project-icons{
+.project-icons {
   width: 30%;
-
   margin-bottom: 50px;
 }
 
-.project-col > a{
+.project-col>a {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-.project-button{
+.project-button {
   background-color: #75A1DE;
   width: 50%;
   min-width: 200px;
   margin-top: 30px;
   margin-bottom: 30px;
   border-radius: 30px;
-  color:#fff;
+  color: #fff;
   font-size: 28px;
-  border:none;
-
+  border: none;
   -webkit-box-shadow: 2px 2px 3px 0px rgba(50, 50, 50, 0.5);
-  -moz-box-shadow:    2px 2px 3px 0px rgba(50, 50, 50, 0.5);
-  box-shadow:         2px 2px 3px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 2px 2px 3px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 2px 2px 3px 0px rgba(50, 50, 50, 0.5);
 }
 
-.project-button:hover{
+.project-button:hover {
   background-color: var(--nav-color)
 }
 
-.footer-section{
+.footer-section {
   margin-top: 100px;
   background-color: #36566E;
 }
 
-.footer{
+.footer {
   padding-top: 80px;
   padding-bottom: 50px;
   color: #fff;
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -196,97 +184,93 @@ a:active {
   margin-left: 15%;
   margin-top: 20px;
   margin-bottom: 30px;
-
   display: flex;
   align-items: center;
 }
 
-.footer-row > a{
-
-
+.footer-row>a {
   display: flex;
   align-items: center;
 }
 
-.footer-row > h1{
+.footer-row>h1 {
   font-size: 48px;
   font-weight: bold;
 }
 
-.footer-row > a > p{
-  margin:0 auto 0 20px;
+.footer-row>a>p {
+  margin: 0 auto 0 20px;
   font-size: 24px;
 }
 
-.contact-bg-span{
+.contact-bg-span {
   color: #dae0e5;
 }
 
 @media (max-width:962px) {
-
-  .nav-link{
-    margin-left: 7% ;
+  .nav-link {
+    margin-left: 7%;
   }
 }
 
 @media (max-width:768px) {
-
-
-  .header{
+  .header {
     padding-left: 40px;
     padding-right: 40px;
   }
 
-  #omnie{
-    margin-top:30px;
+  #omnie {
+    margin-top: 30px;
   }
 
-  .footer{
+  .footer {
     align-items: center;
   }
+
   .footer-row {
     margin-left: 0;
   }
 
-  .footer-row > a{
+  .footer-row>a {
     flex-direction: column;
   }
 
-  .footer-row > a > p{
-    margin:40px auto 30px auto;
+  .footer-row>a>p {
+    margin: 40px auto 30px auto;
     font-size: 18px;
   }
-  .contact-bg-span{
+
+  .contact-bg-span {
     display: none;
   }
 
-  .header h1{
+  .header h1 {
     font-size: 42px;
   }
-  .header p{
+
+  .header p {
     font-size: 18px;
     width: 90%;
-    margin:20px auto;
+    margin: 20px auto;
   }
 
-  .gitbutton{
+  .gitbutton {
     font-size: 22px;
   }
 
-  .project-button{
+  .project-button {
     font-size: 22px;
   }
 
-  .projekty > h1{
+  .projekty>h1 {
     font-size: 36px;
   }
-  .project-col > h2{
+
+  .project-col>h2 {
     font-size: 28px;
   }
-  .footer-row > h1 {
+
+  .footer-row>h1 {
     font-size: 42px;
   }
-
-
-
 }
